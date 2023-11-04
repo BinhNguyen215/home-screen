@@ -1,0 +1,28 @@
+.ProductCard {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: var(--White, #FFF);
+    justify-content: space-evenly;
+}
+.ProductCard img {
+    width: 305px;
+    height: 375px;
+    object-fit: fill;
+}
+.ProductCard h1 {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Clash Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.ProductCard h1 {
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}

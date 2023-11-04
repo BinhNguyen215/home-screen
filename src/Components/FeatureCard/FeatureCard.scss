@@ -1,0 +1,28 @@
+.FeatureCard {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: var(--White, #FFF);
+    justify-content: space-evenly;
+  }
+  .FeatureCard div {
+    height: 24px;
+    width: 24px;
+    object-fit: fill;
+    margin-bottom: 0%;
+  }
+  .FeatureCard h1 {
+    color: var(--Dark-Primary, #2A254B);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-bottom: 0%;
+    font-family: 'Clash Display';
+  }
+  .FeatureCard p {
+    color: var(--Dark-Primary, #2A254B);
+    font-size: 16px;
+    font-family: 'Satoshi';
+    line-height: 150%;
+  }
