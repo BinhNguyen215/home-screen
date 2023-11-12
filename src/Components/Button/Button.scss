@@ -5,4 +5,9 @@
     font-family: Satoshi;
     font-weight: 400;
     border: none;
+    &:hover {
+      transform: scale(1.07);
+      transition: all ease-in 0.2s;
+    }
   }
+  

@@ -4,6 +4,9 @@ import HeroBlocks from "../../Components/HeroBlocks";
 import Features from "../../Components/Features";
 import Listings from "../../Components/Listings";
 import PopularListings from "../../Components/PopularListings";
+import SignUp from "../../Components/SignUp";
+import Introduce from "../../Components/Introduce";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
     return <>
@@ -11,7 +14,10 @@ const Home = () => {
          <HeroBlocks />
          <Features />
          <Listings />
-         <PopularListings/>
+         <PopularListings />
+         <SignUp />
+         <Introduce />
+         <Footer />
     </>;
 };
 

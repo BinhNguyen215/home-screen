@@ -1,42 +1,42 @@
-.ProductCard {
+.PopularProduct {
     display: flex;
     flex: 1;
     flex-direction: column;
     background: var(--White, #FFF);
     justify-content: space-evenly;
-    
 }
-.ProductCard img {
-    width: 305px;
+.PopularProduct img {
+    width: 100%;
     height: 375px;
     object-fit: fill;
     &:hover {
-        transition: .5s ease;
-        backface-visibility: hidden;
         opacity: 0.3;
+        display: block;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
     }
 }
-.ProductCard:hover .middle{
+.PopularProduct:hover .middle{
     transition: 0.3s;
     transform: translateY(-50%);
     opacity: 1;
 }
-.ProductCard .middle{
+
+.PopularProduct .middle{
     transition: 0.3s;
     opacity: 0;
     position: absolute;
 }
-.ProductCard h1 {
+.PopularProduct h1 {
     color: var(--Dark-Primary, #2A254B);
     font-family: Clash Display;
-    font-size: 21px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 8px;
-
 }
-.ProductCard h1 {
+.PopularProduct h1 {
     color: var(--Dark-Primary, #2A254B);
     font-family: Satoshi;
     font-size: 18px;

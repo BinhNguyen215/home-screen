@@ -1,0 +1,46 @@
+.Intro {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    &__content {
+        &__container {
+            width: 100%;
+            display: flex;
+            padding: 72px 100px 54px 84px;
+            flex-direction: column;
+            gap: 196px;
+        }
+        &__top {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            h1 {
+                width: 90%;
+                color: #2A254B;
+                font-family: Clash Display;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            p {
+                color: #505977;
+                font-family: Satoshi;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+    &__image {
+        width: 100%;
+        flex: 1;
+        img {
+            max-height: 603px;
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+}

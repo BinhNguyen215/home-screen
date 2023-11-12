@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from '../Button'
 
-const ProductCard = ({image, name, price}) => {
+const PoplarProduct = ({image, name, price, long}) => {
   return (
-    <div className="ProductCard">
+    <div style={long ? {flex:'0.5'}:{flex:'0.25'}} className="PopularProduct">
         <img alt="Product Img" src={image} className="ProductImg"></img>
         <h1>{name}</h1>
         <h1>{price}</h1>
@@ -21,4 +21,4 @@ const ProductCard = ({image, name, price}) => {
   )
 }
 
-export default ProductCard
+export default PoplarProduct

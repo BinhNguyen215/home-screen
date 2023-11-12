@@ -1,0 +1,11 @@
+.categories-link {
+    color: var(--White, #FFF);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}

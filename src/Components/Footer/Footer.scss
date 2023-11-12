@@ -1,0 +1,106 @@
+.Footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2a254b;
+    &__top {
+        display: flex;
+        flex-direction: row;
+    }
+    &__menu {
+        margin-top: 58px;
+        margin-left: 80px;
+        &__container {
+            h1 {
+                color: var(--White, #FFF);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            gap: 12px;
+
+        }
+    }
+    &__categories {
+        margin-top: 58px;
+        margin-left: 109px;
+        &__container {
+            h1 {
+                color: var(--White, #FFF);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+        }
+    }
+    &__about {
+        margin-top: 58px;
+        margin-left: 109px;
+        &__container {
+            h1 {
+                color: var(--White, #FFF);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+    &__signup {
+        padding: 58px 0px 130px 109px;
+        display: flex;
+        flex-direction: row;
+        h1{
+            color: var(--White, #FFF);
+            font-family: Satoshi;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+        input {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #FFF;
+            width: fit-content;
+            display: flex;
+            padding: 17px 205px 17px 32px;
+            align-items: center;
+            color: var(--White, #FFF);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    &__seperator {
+        margin-top: 79px;
+        height: 1px;
+        width: 100%;
+        opacity: 0.3;
+        background-color: #4E4D93;
+    }
+    &__bottom {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 80px 25px 80px;
+        &__right-content {
+            gap: 24px;
+            display: flex;
+            flex-direction: row;
+            h1 {
+                color: var(--White, #FFF);
+                font-family: Satoshi;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}

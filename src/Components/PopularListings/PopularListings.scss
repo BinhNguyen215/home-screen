@@ -5,7 +5,7 @@
     &__top {
         display: flex;
         width: 100%;
-        margin-left: 64px;
+        margin-left: 60px;
         margin-top: 80px;
         margin-bottom: 25px;
     }
@@ -15,5 +15,22 @@
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
+    }
+    &__block {
+        padding: 0px 20px 44px 60px;
+        margin: auto;
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            gap: 20px;
+        }
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 56px;
     }
 }

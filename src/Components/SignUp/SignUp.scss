@@ -1,0 +1,49 @@
+.SignUp {
+    width: 100%;
+    padding: 60px 80px;
+    box-sizing: border-box;
+    background-color: var(--Light-Grey, #F9F9F9);
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--White, #FFF);
+        padding: 68px 351px 54px 351px;
+        &__top {
+            h1 {
+                color: var(--Dark-Primary, #2A254B);
+                text-align: center;
+                font-family: Clash Display;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+            }
+            p {
+                color: var(--Dark-Primary, #2A254B);
+                text-align: center;
+                font-family: Satoshi;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                margin-top: 16px;
+            }
+        }
+        &__bottom {
+            display: flex;
+            flex-direction: row;
+            margin-top: 72px;
+
+            input {
+                background-color: var(--Light-Grey, #F9F9F9);
+                color: var(--Dark-Primary, #2A254B);
+                display: flex;
+                padding: 17px 205px 17px 32px;
+                align-items: center;
+                font-family: Satoshi;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+    }
+}
